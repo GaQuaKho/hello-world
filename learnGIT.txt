@@ -2,7 +2,7 @@ git init ~ Đầu tiên, sử dụng git, tạo kho
 git status ~ Hiển thị trạng thái các files
 
 git add . || $ten-flile.duoi // ~ Đưa file từ thư mục làm việc sang chế độ staging
-git rm --cached $ten-file ~ Muốn bỏ ở chế độ staging
+git reset file
 
 git commit -m "$message" ~ Git commit dùng để đưa file ở staging sang commited
 git push ~ Đưa 1 commit lên git
@@ -11,15 +11,12 @@ git log ~ Xem lại commit đã tạo, nó hiển thị ra $message tạo ở gi
 
 git branch ~ Xem các branch
 git checkout -b $nameBrand ~ Tạo brand và vào branch
+git brand -D file
 git checkout $nameBrand ~ Chuyển sang band khác
-git merge $nameBranch ~ Chuyển file từ branch hiện tại sang branch khác
+git merge $nameBranch ~ Chuyển file từ branch khac sang branch hien tai
+@ : git pull  ~ File trên git và local kahcs thì
 
-a
-aa
-~ File trên git và local kahcs thì
-@ : git pull 
-
-~ Không đưa lên git
-@ create : .gitignore
-# .gitignore
-$fullnameFile 
+git remote add origin link
+git remote -v
+git push -u origin master
+.gitignore
