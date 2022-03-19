@@ -1,0 +1,44 @@
+~ Đầu tiên, sử dụng git, tạo kho
+@ : git init
+
+~ Hiển thị trạng thái các files
+@ : git status
+
+
+~ Đưa file từ thư mục làm việc sang chế độ staging
+@: git add . || $ten-flile.duoi // Dấu . là muốn lưu tất cả
+~ Muốn bỏ ở chế độ staging
+@: git rm --cached $ten-file
+@ : git restore --staged $nameFile
+
+
+~ Git commit dùng để đưa file ở staging sang commited
+@: git commit -m "$message"
+
+
+
+~ Xem lại commit đã tạo, nó hiển thị ra $message tạo ở git commit
+@ : git log
+
+~ Xem các branch
+@ : git branch
+
+~ Tạo brand và vào branch
+@: git checkout -b $nameBrand
+
+~ Chuyển sang band khác
+@ : git checkout $nameBrand
+
+~ Chuyển file từ branch hiện tại sang branch khác
+@ : git merge $nameBranch
+
+~ Đưa 1 commit lên git
+@ : git push
+
+~ File trên git và local kahcs thì
+@ : git pull 
+
+~ Không đưa lên git
+@ create : .gitignore
+# .gitignore
+$fullnameFile 
