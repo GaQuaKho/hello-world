@@ -14,8 +14,8 @@ git checkout -b $nameBrand ~ Tạo brand và vào branch
 git checkout $nameBrand ~ Chuyển sang band khác
 git merge $nameBranch ~ Chuyển file từ branch hiện tại sang branch khác
 
-
-
+a
+aa
 ~ File trên git và local kahcs thì
 @ : git pull 
 
