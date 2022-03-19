@@ -7,6 +7,7 @@
 
 ~ Đưa file từ thư mục làm việc sang chế độ staging
 @: git add . || $ten-flile.duoi // Dấu . là muốn lưu tất cả
+
 ~ Muốn bỏ ở chế độ staging
 @: git rm --cached $ten-file
 @ : git restore --staged $nameFile
